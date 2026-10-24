@@ -1,9 +1,6 @@
 name: Compilar LPRO SILVER (Windows)
 
-on:
-  workflow_dispatch:
-  push:
-    branches: [main]
+on: [push, workflow_dispatch]
 
 jobs:
   build:
